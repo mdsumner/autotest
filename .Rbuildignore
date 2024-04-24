@@ -1,3 +1,4 @@
 ^autotest\.Rproj$
 ^\.Rproj\.user$
 ^\.github$
+^gdal$
