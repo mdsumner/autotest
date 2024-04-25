@@ -40,7 +40,7 @@ jobs:
       - uses: r-lib/actions/setup-r-dependencies@v2
 
       - name: install
-        run: Rscript -e
+        run: Rscript -e "pak::pak('.')"
 
       - name: Zap last one
         run: rm -rf gdal
